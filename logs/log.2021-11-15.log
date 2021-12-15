@@ -1,0 +1,57 @@
+[2021-11-15T12:01:14.739] [ERROR] error - TypeError: Cannot set property 'token' of undefined
+    at Object.<anonymous> (/Users/shaoshaoman/个人项目/个人项目/blog/routes/v1/users.js:51:24)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-11-15T12:04:01.768] [ERROR] error - TypeError: Cannot set property 'token' of undefined
+    at Object.<anonymous> (/Users/shaoshaoman/个人项目/个人项目/blog/routes/v1/users.js:51:28)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-11-15T13:39:21.310] [ERROR] error - TypeError: Cannot read property 'body' of undefined
+    at Object.<anonymous> (/Users/shaoshaoman/个人项目/个人项目/blog/routes/v1/users.js:12:28)
+    at Object.<anonymous> (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:700:16)
+    at Generator.next (<anonymous>)
+    at Object.allowedMethods (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:369:5)
+    at allowedMethods.next (<anonymous>)
+    at Object.dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:334:5)
+    at dispatch.next (<anonymous>)
+    at onFulfilled (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:65:19)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:50:10)
+    at converted (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-convert/index.js:38:15)
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-convert/index.js:42:43
+    at Generator.next (<anonymous>)
+    at Object.serve (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-static/index.js:43:7)
+[2021-11-15T13:39:46.165] [ERROR] error - TypeError: Cannot read property 'body' of undefined
+    at Object.<anonymous> (/Users/shaoshaoman/个人项目/个人项目/blog/routes/v1/users.js:12:28)
+    at Object.<anonymous> (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:700:16)
+    at Generator.next (<anonymous>)
+    at Object.allowedMethods (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:369:5)
+    at allowedMethods.next (<anonymous>)
+    at Object.dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:334:5)
+    at dispatch.next (<anonymous>)
+    at onFulfilled (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:65:19)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:50:10)
+    at converted (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-convert/index.js:38:15)
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-convert/index.js:42:43
+    at Generator.next (<anonymous>)
+    at Object.serve (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-static/index.js:43:7)
+[2021-11-15T13:40:03.471] [ERROR] error - TypeError: Cannot read property 'body' of undefined
+    at Object.<anonymous> (/Users/shaoshaoman/个人项目/个人项目/blog/routes/v1/users.js:12:28)
+    at Object.<anonymous> (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:700:16)
+    at Generator.next (<anonymous>)
+    at Object.allowedMethods (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:369:5)
+    at allowedMethods.next (<anonymous>)
+    at Object.dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:334:5)
+    at dispatch.next (<anonymous>)
+    at onFulfilled (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:65:19)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:50:10)
+    at converted (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-convert/index.js:38:15)
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-convert/index.js:42:43
+    at Generator.next (<anonymous>)
+    at Object.serve (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-static/index.js:43:7)

@@ -1,0 +1,180 @@
+[2021-11-14T12:01:20.162] [ERROR] error - 222
+[2021-11-14T12:04:44.535] [ERROR] error - ReferenceError: ctx is not defined
+    at Object.<anonymous> (/Users/shaoshaoman/个人项目/个人项目/blog/routes/index.js:13:15)
+    at Object.<anonymous> (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:700:16)
+    at Generator.next (<anonymous>)
+    at Object.dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:334:5)
+    at dispatch.next (<anonymous>)
+    at Object.serve (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-static/index.js:43:7)
+    at serve.next (<anonymous>)
+    at onFulfilled (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:65:19)
+[2021-11-14T12:05:03.162] [ERROR] error - ReferenceError: ctx is not defined
+    at Object.<anonymous> (/Users/shaoshaoman/个人项目/个人项目/blog/routes/index.js:13:15)
+    at Generator.next (<anonymous>)
+    at Object.dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:334:5)
+    at dispatch.next (<anonymous>)
+    at Object.serve (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-static/index.js:43:7)
+    at serve.next (<anonymous>)
+    at onFulfilled (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:65:19)
+[2021-11-14T12:05:03.714] [ERROR] error - ReferenceError: ctx is not defined
+    at Object.<anonymous> (/Users/shaoshaoman/个人项目/个人项目/blog/routes/index.js:13:15)
+    at Generator.next (<anonymous>)
+    at Object.dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:334:5)
+    at dispatch.next (<anonymous>)
+    at Object.serve (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-static/index.js:43:7)
+    at serve.next (<anonymous>)
+    at onFulfilled (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:65:19)
+[2021-11-14T12:05:03.884] [ERROR] error - ReferenceError: ctx is not defined
+    at Object.<anonymous> (/Users/shaoshaoman/个人项目/个人项目/blog/routes/index.js:13:15)
+    at Generator.next (<anonymous>)
+    at Object.dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:334:5)
+    at dispatch.next (<anonymous>)
+    at Object.serve (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-static/index.js:43:7)
+    at serve.next (<anonymous>)
+    at onFulfilled (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:65:19)
+[2021-11-14T12:05:56.273] [ERROR] error - TypeError: utils.info is not a function
+    at Object.<anonymous> (/Users/shaoshaoman/个人项目/个人项目/blog/routes/index.js:13:9)
+    at Generator.next (<anonymous>)
+    at Object.dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:334:5)
+    at dispatch.next (<anonymous>)
+    at Object.serve (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-static/index.js:43:7)
+    at serve.next (<anonymous>)
+    at onFulfilled (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:65:19)
+[2021-11-14T13:27:11.737] [ERROR] error - ***数据库连接失败***
+[2021-11-14T13:28:19.566] [ERROR] error - ***数据库连接失败***
+[2021-11-14T14:34:09.892] [ERROR] error - ReferenceError: Menu is not defined
+    at Object.<anonymous> (/Users/shaoshaoman/个人项目/个人项目/blog/routes/users.js:19:15)
+    at Object.<anonymous> (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:700:16)
+    at Generator.next (<anonymous>)
+    at Object.allowedMethods (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:369:5)
+    at allowedMethods.next (<anonymous>)
+    at Object.dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:334:5)
+    at dispatch.next (<anonymous>)
+    at Object.serve (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-static/index.js:43:7)
+    at serve.next (<anonymous>)
+    at onFulfilled (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:65:19)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:118:63)
+    at next (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:69:7)
+[2021-11-14T14:34:33.531] [ERROR] error - MongooseError: document must have an _id before saving
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:287:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+[2021-11-14T15:20:54.752] [ERROR] error - MongooseError: document must have an _id before saving
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:287:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+[2021-11-14T15:21:07.816] [ERROR] error - MongooseError: document must have an _id before saving
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:287:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+[2021-11-14T15:21:51.745] [ERROR] error - MongooseError: document must have an _id before saving
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:287:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+[2021-11-14T15:24:12.593] [ERROR] error - TypeError: User.create is not a function
+    at Object.<anonymous> (/Users/shaoshaoman/个人项目/个人项目/blog/routes/users.js:19:20)
+    at Object.<anonymous> (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:700:16)
+    at Generator.next (<anonymous>)
+    at Object.allowedMethods (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:369:5)
+    at allowedMethods.next (<anonymous>)
+    at Object.dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:334:5)
+    at dispatch.next (<anonymous>)
+    at Object.serve (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-static/index.js:43:7)
+    at serve.next (<anonymous>)
+    at onFulfilled (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:65:19)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:118:63)
+    at next (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:69:7)
+[2021-11-14T15:24:38.622] [ERROR] error - TypeError: User.create is not a function
+    at Object.<anonymous> (/Users/shaoshaoman/个人项目/个人项目/blog/routes/users.js:19:26)
+    at Object.<anonymous> (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:700:16)
+    at Generator.next (<anonymous>)
+    at Object.allowedMethods (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:369:5)
+    at allowedMethods.next (<anonymous>)
+    at Object.dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:334:5)
+    at dispatch.next (<anonymous>)
+    at Object.serve (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-static/index.js:43:7)
+    at serve.next (<anonymous>)
+    at onFulfilled (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:65:19)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:118:63)
+    at next (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:69:7)
+[2021-11-14T15:26:54.774] [ERROR] error - MongooseError: document must have an _id before saving
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:287:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+[2021-11-14T15:27:22.640] [ERROR] error - MongooseError: document must have an _id before saving
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:287:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+[2021-11-14T15:28:08.175] [ERROR] error - MongooseError: document must have an _id before saving
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:287:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+[2021-11-14T15:28:44.230] [ERROR] error - MongooseError: document must have an _id before saving
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:287:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+[2021-11-14T17:13:03.315] [ERROR] error - SyntaxError: Unexpected string in JSON at position 44
+    at JSON.parse (<anonymous>)
+    at parse (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co-body/lib/json.js:62:17)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co-body/lib/json.js:45:22
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-11-14T19:38:58.134] [ERROR] error - ReferenceError: userName is not defined
+    at Object.<anonymous> (/Users/shaoshaoman/个人项目/个人项目/blog/routes/v1/users.js:15:9)
+    at Object.<anonymous> (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:700:16)
+    at Generator.next (<anonymous>)
+    at Object.allowedMethods (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:369:5)
+    at allowedMethods.next (<anonymous>)
+    at Object.dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:334:5)
+    at dispatch.next (<anonymous>)
+    at Object.serve (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-static/index.js:43:7)
+    at serve.next (<anonymous>)
+    at onFulfilled (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:65:19)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:118:63)
+    at next (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:69:7)
+[2021-11-14T19:39:11.351] [ERROR] error - ReferenceError: userName is not defined
+    at Object.<anonymous> (/Users/shaoshaoman/个人项目/个人项目/blog/routes/v1/users.js:15:9)
+    at Object.<anonymous> (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:700:16)
+    at Generator.next (<anonymous>)
+    at Object.allowedMethods (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:369:5)
+    at allowedMethods.next (<anonymous>)
+    at Object.dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:334:5)
+    at dispatch.next (<anonymous>)
+    at Object.serve (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-static/index.js:43:7)
+    at serve.next (<anonymous>)
+    at onFulfilled (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:65:19)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:118:63)
+    at next (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:69:7)
+[2021-11-14T19:39:12.082] [ERROR] error - ReferenceError: userName is not defined
+    at Object.<anonymous> (/Users/shaoshaoman/个人项目/个人项目/blog/routes/v1/users.js:15:9)
+    at Object.<anonymous> (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:700:16)
+    at Generator.next (<anonymous>)
+    at Object.allowedMethods (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:369:5)
+    at allowedMethods.next (<anonymous>)
+    at Object.dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:334:5)
+    at dispatch.next (<anonymous>)
+    at Object.serve (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-static/index.js:43:7)
+    at serve.next (<anonymous>)
+    at onFulfilled (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:65:19)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:118:63)
+    at next (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:69:7)
+[2021-11-14T19:44:44.060] [ERROR] error - SyntaxError: Unexpected string in JSON at position 39
+    at JSON.parse (<anonymous>)
+    at parse (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co-body/lib/json.js:62:17)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co-body/lib/json.js:45:22
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)

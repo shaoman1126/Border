@@ -1,0 +1,5 @@
+[2021-12-15T12:52:38.852] [ERROR] error - ValidationError: orders validation failed: dyOrderNumber: Path `dyOrderNumber` is required., orderAmount: Path `orderAmount` is required.
+    at model.Document.invalidate (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/document.js:2921:32)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/document.js:2712:17
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/schematype.js:1280:9
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)

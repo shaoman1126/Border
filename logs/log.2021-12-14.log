@@ -1,0 +1,283 @@
+[2021-12-14T11:35:04.656] [ERROR] error - ReferenceError: User is not defined
+    at /Users/shaoshaoman/个人项目/个人项目/blog/routes/v1/goods.js:15:21
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:433:12)
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:377:31)
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-convert/index.js:42:43
+    at Generator.next (<anonymous>)
+    at Object.serve (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-static/index.js:43:7)
+    at serve.next (<anonymous>)
+    at onFulfilled (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:65:19)
+[2021-12-14T12:18:05.437] [ERROR] error - TypeError: utils.info is not a function
+    at /Users/shaoshaoman/个人项目/个人项目/blog/routes/v1/goods.js:42:15
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:433:12)
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:377:31)
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-convert/index.js:42:43
+    at Generator.next (<anonymous>)
+    at Object.serve (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-static/index.js:43:7)
+    at serve.next (<anonymous>)
+    at onFulfilled (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:65:19)
+[2021-12-14T12:18:45.939] [ERROR] error - ReferenceError: pageSize is not defined
+    at /Users/shaoshaoman/个人项目/个人项目/blog/routes/v1/goods.js:43:55
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:433:12)
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:377:31)
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-convert/index.js:42:43
+    at Generator.next (<anonymous>)
+    at Object.serve (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-static/index.js:43:7)
+    at serve.next (<anonymous>)
+    at onFulfilled (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:65:19)
+[2021-12-14T12:23:25.942] [ERROR] error - MongoServerError: BSON field 'skip' value must be >= 0, actual value '-1'
+    at MessageStream.messageHandler (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/node_modules/mongodb/lib/cmap/connection.js:467:30)
+    at MessageStream.emit (events.js:315:20)
+    at processIncomingData (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/node_modules/mongodb/lib/cmap/message_stream.js:108:16)
+    at MessageStream._write (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/node_modules/mongodb/lib/cmap/message_stream.js:28:9)
+    at writeOrBuffer (_stream_writable.js:352:12)
+    at MessageStream.Writable.write (_stream_writable.js:303:10)
+    at Socket.ondata (_stream_readable.js:719:22)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:284:9)
+    at Socket.Readable.push (_stream_readable.js:223:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-12-14T12:25:57.767] [ERROR] error - TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Topology'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'topology' closes the circle
+    at JSON.stringify (<anonymous>)
+    at respond (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa/lib/application.js:279:15)
+    at handleResponse (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa/lib/application.js:166:34)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-12-14T12:26:09.956] [ERROR] error - TypeError: data.count is not a function
+    at /Users/shaoshaoman/个人项目/个人项目/blog/routes/v1/goods.js:47:25
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-12-14T13:29:07.143] [ERROR] error - ReferenceError: info is not defined
+    at /Users/shaoshaoman/个人项目/个人项目/blog/routes/v1/goods.js:90:16
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:433:12)
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:377:31)
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-convert/index.js:42:43
+    at Generator.next (<anonymous>)
+    at Object.serve (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-static/index.js:43:7)
+    at serve.next (<anonymous>)
+    at onFulfilled (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:65:19)
+[2021-12-14T13:30:49.672] [ERROR] error - ReferenceError: info is not defined
+    at /Users/shaoshaoman/个人项目/个人项目/blog/routes/v1/goods.js:90:16
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:433:12)
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:377:31)
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-convert/index.js:42:43
+    at Generator.next (<anonymous>)
+    at Object.serve (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-static/index.js:43:7)
+    at serve.next (<anonymous>)
+    at onFulfilled (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/co/index.js:65:19)
+[2021-12-14T14:11:09.919] [ERROR] error - ObjectParameterError: Parameter "filter" to deleteOne() must be an object, got 5cf5e613ba3c6298a8734973
+    at model.Query.Query.deleteOne (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/query.js:2946:16)
+    at Function.deleteOne (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:2031:13)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/routes/v1/goods.js:138:27
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:433:12)
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:377:31)
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-convert/index.js:42:43
+    at Generator.next (<anonymous>)
+    at Object.serve (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-static/index.js:43:7)
+[2021-12-14T15:53:16.758] [ERROR] error - CastError: Cast to ObjectId failed for value "1" (type number) at path "_id" for model "goods"
+    at model.Query.exec (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/query.js:4584:21)
+    at model.Query.Query.then (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/query.js:4683:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-12-14T15:53:29.075] [ERROR] error - CastError: Cast to ObjectId failed for value "1" (type number) at path "_id" for model "goods"
+    at model.Query.exec (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/query.js:4584:21)
+    at model.Query.Query.then (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/query.js:4683:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-12-14T16:44:18.137] [ERROR] error - ReferenceError: Goods is not defined
+    at /Users/shaoshaoman/个人项目/个人项目/blog/routes/v1/commodity.js:41:5
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:433:12)
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:433:12)
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-router/lib/router.js:377:31)
+    at dispatch (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-compose/index.js:42:32)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/koa-convert/index.js:42:43
+[2021-12-14T16:56:02.555] [ERROR] error - CastError: Cast to ObjectId failed for value "{ _id: '11' }" (type Object) at path "_id" for model "commoditys"
+    at model.Query.exec (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/query.js:4584:21)
+    at model.Query.Query.then (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/query.js:4683:15)
+[2021-12-14T16:56:18.539] [ERROR] error - CastError: Cast to ObjectId failed for value "11" (type string) at path "_id" for model "commoditys"
+    at model.Query.exec (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/query.js:4584:21)
+    at model.Query.Query.then (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/query.js:4683:15)
+[2021-12-14T16:59:49.084] [ERROR] error - CastError: Cast to ObjectId failed for value "61b8549840248bd1095acd921" (type string) at path "_id" for model "commoditys"
+    at model.Query.exec (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/query.js:4584:21)
+    at model.Query.Query.then (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/query.js:4683:15)
+[2021-12-14T17:00:23.878] [ERROR] error - CastError: Cast to ObjectId failed for value "61b8549840248bd1095acd921" (type string) at path "_id" for model "commoditys"
+    at model.Query.exec (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/query.js:4584:21)
+    at model.Query.Query.then (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/query.js:4683:15)
+[2021-12-14T17:00:32.791] [ERROR] error - CastError: Cast to ObjectId failed for value "61b8549840248bd1095acd921" (type string) at path "_id" for model "commoditys"
+    at model.Query.exec (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/query.js:4584:21)
+    at model.Query.Query.then (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/query.js:4683:15)
+[2021-12-14T17:00:33.523] [ERROR] error - CastError: Cast to ObjectId failed for value "61b8549840248bd1095acd921" (type string) at path "_id" for model "commoditys"
+    at model.Query.exec (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/query.js:4584:21)
+    at model.Query.Query.then (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/query.js:4683:15)
+[2021-12-14T17:00:40.682] [ERROR] error - CastError: Cast to ObjectId failed for value "1" (type string) at path "_id" for model "commoditys"
+    at model.Query.exec (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/query.js:4584:21)
+    at model.Query.Query.then (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/query.js:4683:15)
+[2021-12-14T17:01:02.824] [ERROR] error - CastError: Cast to ObjectId failed for value "1" (type string) at path "_id" for model "commoditys"
+    at model.Query.exec (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/query.js:4584:21)
+    at model.Query.Query.then (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/query.js:4683:15)
+[2021-12-14T17:37:59.611] [ERROR] error - ValidationError: commoditys validation failed: commodityPrice: Cast to Number failed for value "admin" (type string) at path "commodityPrice"
+    at model.Document.invalidate (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/document.js:2921:32)
+    at model.$set (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/document.js:1458:12)
+    at model.$set (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/document.js:1153:16)
+    at model.Document (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/document.js:158:12)
+    at model.Model (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:106:12)
+    at new model (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:4774:15)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:3118:22
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:3154:7
+    at Array.forEach (<anonymous>)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:3153:15
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/index.js:1158:10)
+    at Function.create (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:3083:23)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/routes/v1/commodity.js:19:40
+[2021-12-14T17:38:04.925] [ERROR] error - ValidationError: commoditys validation failed: commodityPrice: Cast to Number failed for value "admin" (type string) at path "commodityPrice"
+    at model.Document.invalidate (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/document.js:2921:32)
+    at model.$set (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/document.js:1458:12)
+    at model.$set (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/document.js:1153:16)
+    at model.Document (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/document.js:158:12)
+    at model.Model (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:106:12)
+    at new model (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:4774:15)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:3118:22
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:3154:7
+    at Array.forEach (<anonymous>)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:3153:15
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/index.js:1158:10)
+    at Function.create (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:3083:23)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/routes/v1/commodity.js:19:40
+[2021-12-14T17:38:21.003] [ERROR] error - ValidationError: commoditys validation failed: commodityPrice: Cast to Number failed for value "admin" (type string) at path "commodityPrice"
+    at model.Document.invalidate (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/document.js:2921:32)
+    at model.$set (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/document.js:1458:12)
+    at model.$set (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/document.js:1153:16)
+    at model.Document (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/document.js:158:12)
+    at model.Model (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:106:12)
+    at new model (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:4774:15)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:3118:22
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:3154:7
+    at Array.forEach (<anonymous>)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:3153:15
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/index.js:1158:10)
+    at Function.create (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:3083:23)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/routes/v1/commodity.js:19:40
+[2021-12-14T17:38:22.946] [ERROR] error - ValidationError: commoditys validation failed: commodityPrice: Cast to Number failed for value "admin" (type string) at path "commodityPrice"
+    at model.Document.invalidate (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/document.js:2921:32)
+    at model.$set (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/document.js:1458:12)
+    at model.$set (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/document.js:1153:16)
+    at model.Document (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/document.js:158:12)
+    at model.Model (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:106:12)
+    at new model (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:4774:15)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:3118:22
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:3154:7
+    at Array.forEach (<anonymous>)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:3153:15
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/index.js:1158:10)
+    at Function.create (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:3083:23)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/routes/v1/commodity.js:19:40
+[2021-12-14T17:38:23.161] [ERROR] error - ValidationError: commoditys validation failed: commodityPrice: Cast to Number failed for value "admin" (type string) at path "commodityPrice"
+    at model.Document.invalidate (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/document.js:2921:32)
+    at model.$set (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/document.js:1458:12)
+    at model.$set (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/document.js:1153:16)
+    at model.Document (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/document.js:158:12)
+    at model.Model (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:106:12)
+    at new model (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:4774:15)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:3118:22
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:3154:7
+    at Array.forEach (<anonymous>)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:3153:15
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/index.js:1158:10)
+    at Function.create (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:3083:23)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/routes/v1/commodity.js:19:40
+[2021-12-14T17:43:58.886] [ERROR] error - ValidationError: commoditys validation failed: commodityPrice: Cast to Number failed for value "admin" (type string) at path "commodityPrice"
+    at model.Document.invalidate (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/document.js:2921:32)
+    at model.$set (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/document.js:1458:12)
+    at model.$set (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/document.js:1153:16)
+    at model.Document (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/document.js:158:12)
+    at model.Model (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:106:12)
+    at new model (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:4774:15)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:3118:22
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:3154:7
+    at Array.forEach (<anonymous>)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:3153:15
+    at /Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/index.js:1158:10)
+    at Function.create (/Users/shaoshaoman/个人项目/个人项目/blog/node_modules/mongoose/lib/model.js:3083:23)
+    at /Users/shaoshaoman/个人项目/个人项目/blog/routes/v1/commodity.js:19:40
+[2021-12-14T20:33:24.364] [ERROR] error - ReferenceError: chooseShops is not defined
+    at /Users/shaoshaoman/个人项目/个人项目/blog/routes/v1/order.js:22:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
