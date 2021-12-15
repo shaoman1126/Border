@@ -18,6 +18,7 @@ onerror(app);
 require("./config/db");
 
 
+let test = require("./routes/test"); //测试
 
 
 let users = require("./routes/v1/users"); //用户
@@ -39,7 +40,7 @@ app.use(bodyparser({
 app.use(require('koa-static')(__dirname + '/public'));
 
 
-
+router.use(test.routes(), test.allowedMethods());
 // 路由
 router.use(users.routes(), users.allowedMethods()); //
 router.use(goods.routes(), goods.allowedMethods()); //

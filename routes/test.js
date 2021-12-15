@@ -14,3 +14,6 @@ router.post("/test/test", async (ctx, next) => {
         password: password
     }
 })
+
+
+module.exports = router
