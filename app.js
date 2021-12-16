@@ -15,7 +15,7 @@ const router = require('koa-router')();
 
 onerror(app);
 
-require("./config/db");
+// require("./config/db");
 
 
 let test = require("./routes/test"); //测试
