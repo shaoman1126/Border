@@ -15,7 +15,13 @@ const router = require('koa-router')();
 
 onerror(app);
 
-require("./config/db");
+
+try {
+  require("./config/db");
+} catch (error) {
+  log4js.error(error)
+}
+
 
 
 let test = require("./routes/test"); //测试
