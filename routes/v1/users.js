@@ -12,7 +12,7 @@ router.post("/v1/register", async (ctx, next) => {
     let data = ctx.request.body;
     let info
     const { username, password } = data;
-
+    log4js.error(data)
     if (username && password) {
         const res = await User.findOne({ username })
         if (res) {
